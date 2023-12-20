@@ -1,0 +1,137 @@
+.header__white_btn {
+  width: 128px;
+  height: 56px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Mulish';
+}
+.header__white_btn:hover{
+  color: #0fbef3;
+  border: 2px solid #0fbef3;
+}
+.header__black_btn {
+  width: 128px;
+  height: 56px;
+  border: 2px solid rgba(77, 160, 253, 0.42);
+  border-radius: 4px;
+  color: #4DA0FD;
+  font-size: 16px;
+  font-family: 'Mulish';
+  background: #4DA0FD6B; 
+}
+.header__black_btn:hover {
+  color: #000;
+  border: 2px solid #000;
+  background: #cacacf6b; 
+}
+
+/////////////////
+.homepage-form_btn {
+  width: 143px;
+  height: 56px;
+  border: none;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #0BBEF2;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 991px) {
+  .header__white_btn,
+  .header__black_btn {
+    margin-top: 7px;
+    width: 100px;
+    height: 46px;
+  }
+  .homepage-form_btn {
+    width: 120px;
+    height: 49px;
+    font-size: 14px;
+  }
+  .footer .header__white_btn {
+    margin-top: 0;
+    width: 90px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__white_btn,
+  .header__black_btn {
+    margin-top: 13px;
+    width: 80px;
+    height: 36px;
+    font-size: 10px;
+  }
+  .footer .header__white_btn {
+    width: 60px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .homepage-form_btn {
+    width: 100px;
+    height: 42px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__white_btn,
+  .header__black_btn {
+    margin-top: 16px;
+    width: 55px;
+    height: 26px;
+    font-size: 7px;
+  }
+  .header__white_btn {
+    margin-top: 20px;
+  }
+  .homepage-form_btn {
+    width: 85px;
+    height: 35px;
+    font-size: 9px;
+  }
+  .footer .header__white_btn {
+    width: 50px;
+    height: 20px;
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__white_btn,
+  .header__black_btn {
+    margin-top: 3px;
+    width: 49px;
+    height: 20px;
+    font-size: 6px;
+  }
+  .header__white_btn {
+    margin-top: 4px;
+  }
+  .homepage-form_btn {
+    width: 70px;
+    height: 30px;
+    font-size: 7px;
+  }
+ 
+}
+
+@media screen and (max-width: 365px) {
+  .homepage-form_btn {
+    width: 60px;
+    height: 25px;
+    font-size: 6px;
+  }
+  .footer .header__white_btn {
+    width: 30px;
+    height: 15px;
+    font-size: 3px;
+  }
+}

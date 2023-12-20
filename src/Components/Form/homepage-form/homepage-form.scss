@@ -1,0 +1,72 @@
+.homepage-form {
+  margin-top: 70px;
+  .email input {
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 317px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 2px solid #BBC8D4;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Mulish';
+    color: #6D7D8B;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homepage-form{
+    margin-top: 50px;
+    .email input {
+      width: 270px;
+      height: 27px;
+      font-size: 14px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .homepage-form{
+    margin-top: 30px;
+    .email input {
+      width: 200px;
+      height: 20px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .homepage-form{
+    margin-top: 20px;
+    .email input {
+      width: 150px;
+      height: 13px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homepage-form{
+    .email input {
+      width: 100px;
+      height: 7px;
+      font-size: 9px;
+    }
+  }
+}
+@media screen and (max-width: 365px) {
+  .homepage-form{
+    display: flex;
+    align-items: center;
+    .email input {
+      width: 90px;
+      height: 3px;
+      font-size: 7px;
+      margin-right: 10px;
+    }
+  }
+}

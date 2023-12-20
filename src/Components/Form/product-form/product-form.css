@@ -1,0 +1,53 @@
+.comments {
+  width: 630px;
+  background: #FFFFFF;
+  border: 2px solid #BBC8D4;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.comments label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #BBC8D4;
+}
+
+@media screen and (max-width: 767px) {
+  .comments {
+    width: 400px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .comments label {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .comments {
+    width: 300px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .comments label {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .comments {
+    width: 200px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .comments label {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+/*# sourceMappingURL=product-form.css.map */

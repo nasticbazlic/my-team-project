@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', 'Work Sans', sans-serif;
+  height:100%;
+}
+.padding_left {
+  padding-left: 120px;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+@media screen and (max-width: 991px) {
+  .padding_left {
+    padding-left: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .padding_left {
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .padding_left {
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,134 @@
+.homepage-item {
+  width: 465px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.homepage-item .homepage-item__title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: 'Mulish';
+}
+
+.homepage-item .homepage-item__info {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  font-family: 'Mulish';
+  color: #182D40;
+}
+
+.homepage-item .homepage-item__more {
+  margin-top: 30px;
+}
+
+.homepage-item .homepage-item__more a {
+  text-decoration: none;
+  color: #4DA0FD;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .homepage-item .homepage-item__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .homepage-item .homepage-item__info {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .homepage-item .homepage-item__more {
+    margin-top: 20px;
+  }
+  .homepage-item .homepage-item__more a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homepage-item {
+    width: 350px;
+  }
+  .homepage-item .homepage-item__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .homepage-item .homepage-item__info {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .homepage-item .homepage-item__more {
+    margin-top: 10px;
+  }
+  .homepage-item .homepage-item__more a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .homepage-item {
+    width: 250px;
+  }
+  .homepage-item .homepage-item__title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .homepage-item .homepage-item__info {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .homepage-item .homepage-item__more {
+    margin-top: 0;
+  }
+  .homepage-item .homepage-item__more a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homepage-item {
+    width: 180px;
+  }
+  .homepage-item .homepage-item__title {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .homepage-item .homepage-item__info {
+    font-size: 9px;
+    line-height: 18px;
+  }
+  .homepage-item .homepage-item__more a {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .homepage-item {
+    width: 140px;
+  }
+  .homepage-item .homepage-item__title {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .homepage-item .homepage-item__info {
+    font-size: 7px;
+    line-height: 14px;
+  }
+  .homepage-item .homepage-item__more a {
+    font-size: 5px;
+  }
+}
+/*# sourceMappingURL=homepage-item.css.map */
