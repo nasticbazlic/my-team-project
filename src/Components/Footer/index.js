@@ -18,7 +18,7 @@ const Footer = () => {
     <div className='footer'>
      <div className='footer__content'>
        <div className='footer__content_logo'>
-       <Link to='/'><img src={BlackLogo} alt='black_log' /> </Link>
+       <Link to='/my-team-project'><img src={BlackLogo} alt='black_log' /> </Link>
        </div>
        <div className='footer__content_list'>
         <ul>

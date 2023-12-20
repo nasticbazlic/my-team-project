@@ -15,7 +15,7 @@ const Header = () => {
 		<div className='header'>
 			<div className='header__white'>
 				<div className='header__white_logo'>
-					<Link to='/'><img src={WhiteLogo} alt='WhiteLogo'></img></Link>
+					<Link to='/my-team-project'><img src={WhiteLogo} alt='WhiteLogo'></img></Link>
 				</div>
 				<div className='header__white_content'>
 					<ul className='header__white_content_list'>
@@ -33,7 +33,7 @@ const Header = () => {
 			{/* /////// */}
 			<div className='header__black'>
 				<div className='header__black_logo'>
-					<Link to='/'><img src={BlackLogo} alt='black_logo'></img></Link>
+					<Link to='/my-team-project'><img src={BlackLogo} alt='black_logo'></img></Link>
 				</div>
 				<div className='header__black_content'>
 					<ul className='header__black_content_list'>
